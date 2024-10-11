@@ -1,0 +1,15 @@
+C:\Users\student\Desktop\kykykyky\liananeshariit\liananeshariit\obj\Debug\liananeshariit.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\kykykyky\liananeshariit\liananeshariit\obj\Debug\App.g.cs
+C:\Users\student\Desktop\kykykyky\liananeshariit\liananeshariit\obj\Debug\liananeshariit_MarkupCompile.cache
+C:\Users\student\Desktop\kykykyky\liananeshariit\liananeshariit\bin\Debug\liananeshariit.exe.config
+C:\Users\student\Desktop\kykykyky\liananeshariit\liananeshariit\bin\Debug\liananeshariit.exe
+C:\Users\student\Desktop\kykykyky\liananeshariit\liananeshariit\bin\Debug\liananeshariit.pdb
+C:\Users\student\Desktop\kykykyky\liananeshariit\liananeshariit\obj\Debug\MainWindow.g.cs
+C:\Users\student\Desktop\kykykyky\liananeshariit\liananeshariit\obj\Debug\liananeshariit_MarkupCompile.lref
+C:\Users\student\Desktop\kykykyky\liananeshariit\liananeshariit\obj\Debug\MainWindow.baml
+C:\Users\student\Desktop\kykykyky\liananeshariit\liananeshariit\obj\Debug\liananeshariit.g.resources
+C:\Users\student\Desktop\kykykyky\liananeshariit\liananeshariit\obj\Debug\liananeshariit.Properties.Resources.resources
+C:\Users\student\Desktop\kykykyky\liananeshariit\liananeshariit\obj\Debug\liananeshariit.csproj.GenerateResource.cache
+C:\Users\student\Desktop\kykykyky\liananeshariit\liananeshariit\obj\Debug\liananeshariit.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\kykykyky\liananeshariit\liananeshariit\obj\Debug\liananeshariit.exe
+C:\Users\student\Desktop\kykykyky\liananeshariit\liananeshariit\obj\Debug\liananeshariit.pdb
