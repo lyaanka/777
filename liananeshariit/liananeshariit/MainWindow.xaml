@@ -6,8 +6,10 @@
         xmlns:local="clr-namespace:liananeshariit"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+
     <Grid>
         <Menu Background="White" BorderBrush="Navy" BorderThickness="1">
+            <MenuItem x:Name="mi_openn" Header="_Изменить цвет фона" Click="ColorItem_Click" Height="21" Width="134"/>
             <MenuItem Name="mi_open" Header="_Файл" Click="MenuItem_Click">
                 <MenuItem Header="_Открыть"/>
                 <MenuItem Header="_Сохранить"/>
@@ -16,13 +18,13 @@
             </MenuItem>
             <MenuItem Header="_О программе"/>
         </Menu>
-        <ToolBar Margin="10,24,661,322">
+        <ToolBar Margin="10,27,579,299">
             <Button>
                 <Image Source="https://w7.pngwing.com/pngs/598/11/png-transparent-computer-icons-directory-open-open-miscellaneous-angle-rectangle-thumbnail.png" Height="46" Width="39"></Image>
             </Button>
             <Separator/>
-            <Button>
-                <Image Source="https://w7.pngwing.com/pngs/435/800/png-transparent-floppy-disc-computer-icons-iconfinder-desktop-floppy-save-icon-miscellaneous-blue-angle-thumbnail.png" Height="105" Width="39"></Image>
+            <Button Width="83">
+                <Image Source="https://w7.pngwing.com/pngs/435/800/png-transparent-floppy-disc-computer-icons-iconfinder-desktop-floppy-save-icon-miscellaneous-blue-angle-thumbnail.png" Height="50" Width="56"></Image>
             </Button>
         </ToolBar>
         <StatusBar DockPanel.Dock="Bottom" Margin="0,397,0,0">

@@ -29,5 +29,9 @@ namespace liananeshariit
         {
             mi_open.Background = Brushes.LightCoral;
         }
+        private void ColorItem_Click(object sender, RoutedEventArgs e)
+        {
+            mi_openn.Background = Brushes.LightGreen;
+        }
     }
 }
