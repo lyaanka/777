@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,9 +30,21 @@ namespace liananeshariit
         {
             mi_open.Background = Brushes.LightCoral;
         }
-        private void ColorItem_Click(object sender, RoutedEventArgs e)
+        private void info_Click(object sender, RoutedEventArgs e)
         {
-            mi_openn.Background = Brushes.LightGreen;
+            MessageBox.Show("Лялляя", "Разработчик: Лиана", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+        private void Changee_Click(object sender, RoutedEventArgs e)
+        {
+            string colorName = (sender as MenuItem)?.Tag?.ToString() ?? (sender as Button)?.Tag?.ToString();
+            if (!string.IsNullOrEmpty(colorName))
+            {
+                this.Background = (System.Windows.Media.Brush)new System.Windows.Media.SolidColorBrush((System.Windows.Media.Color)System.Windows.Media.ColorConverter.ConvertFromString(colorName));
+            }
         }
     }
 }

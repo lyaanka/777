@@ -8,17 +8,29 @@
         Title="MainWindow" Height="450" Width="800">
 
     <Grid>
-        <Menu Background="White" BorderBrush="Navy" BorderThickness="1">
-            <MenuItem x:Name="mi_openn" Header="_Изменить цвет фона" Click="ColorItem_Click" Height="21" Width="134"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0" Name="MainMenu" Margin="0,0,518,289">
             <MenuItem Name="mi_open" Header="_Файл" Click="MenuItem_Click">
                 <MenuItem Header="_Открыть"/>
                 <MenuItem Header="_Сохранить"/>
                 <Separator/>
                 <MenuItem Header="_Закрыть"/>
             </MenuItem>
+
+            <MenuItem Header="Настройки" Height="18" Width="82">
+                <MenuItem Header="Красный" Click="Changee_Click" ToolTip="Сменить цвет на красный" Tag="Red"/>
+                <MenuItem Header="Зеленый" Click="Changee_Click" ToolTip="Сменить цвет на зеленый" Tag="Green"/>
+                <MenuItem Header="Синий" Click="Changee_Click" ToolTip="Сменить цвет на синий" Tag="Blue"/>
+            </MenuItem>
             <MenuItem Header="_О программе"/>
         </Menu>
-        <ToolBar Margin="10,27,579,299">
+        <ToolBar Margin="10,27,518,289">
+            <Button Content="Инфо" Click="info_Click" ToolTip="Получить информацию о разработчике"/>
+            <Button Content="Выход" Click="Exit_Click" ToolTip="Закрыть приложение"/>
             <Button>
                 <Image Source="https://w7.pngwing.com/pngs/598/11/png-transparent-computer-icons-directory-open-open-miscellaneous-angle-rectangle-thumbnail.png" Height="46" Width="39"></Image>
             </Button>
@@ -27,7 +39,8 @@
                 <Image Source="https://w7.pngwing.com/pngs/435/800/png-transparent-floppy-disc-computer-icons-iconfinder-desktop-floppy-save-icon-miscellaneous-blue-angle-thumbnail.png" Height="50" Width="56"></Image>
             </Button>
         </ToolBar>
-        <StatusBar DockPanel.Dock="Bottom" Margin="0,397,0,0">
+        <StatusBar DockPanel.Dock="Bottom" Margin="0,382,0,0">
+            <TextBlock x:Name="StatusText"/>
             <TextBlock Text="Сохранение документа ..."/>
             <StatusBarItem HorizontalAlignment="Right">
                 <TextBlock Text=" Подключение к БД: ОК"/>
